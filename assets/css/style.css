@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Fraunces', sans-serif;
+}
+
+.primeira-section {
+    background: rgb(241, 152, 152);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.data-content {
+    background: #ffffff;
+    width: 73rem;
+    height: 900px;
+    margin: auto;
+}
+
+.primeira-section .data-content .img-left {
+    width: 100%;
+}
+
+.primeira-section .data-content .conteudo-right {
+    height: 100%;
+    width: 83%;
+    background-color:white;
+}
+
+.primeira-section .data-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primeira-section .data-content .conteudo-right p {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.primeira-section .data-content .conteudo-right .text-conteudo-right {
+    margin-top: 5rem;
+}
+
+.primeira-section .data-content .conteudo-right h2 {
+    font-family: 'Fraunces';
+    font-size: 54px;
+    margin-top: 2rem;
+}
+
+.primeira-section .data-content .conteudo-right .details h2 {
+    color: green;
+    margin-top: 6rem;
+}
+
+.primeira-section .data-content .conteudo-right .details .text-details p {
+    text-decoration: line-through;
+    margin-left: 8rem;
+    color: rgb(214, 205, 187);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -3rem;
+    
+}
+
+.primeira-section .data-content .conteudo-right .details .btn {
+    background-color: green;
+    width: 31rem;
+    height: 68px;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content:center;
+    border-radius: 10px;
+}
+
+.primeira-section .data-content .conteudo-right .details .btn .div-span {
+    margin-top: 16px;
+    color: #ffffff;
+}
+
+.primeira-section .data-content .conteudo-right .details .btn .text-button {
+    color: white;
+    margin-top: 11px;
+}
